@@ -1,5 +1,21 @@
 #set the working directory
 setwd("/")
+
+
+#install the packages
+install.packages("dplyr")
+install.packages("Boruta")
+install.packages("DMwR")
+install.packages("caret")
+install.packages("corrplot")
+install.packages("pROC")
+install.packages("plyr")
+install.packages("cluster") # for gower similarity and pam
+install.packages("Rtsne") # for t-SNE plot
+install.packages("magrittr")
+install.packages("ggplot2")
+install.packages("stringdist")
+
 library(dplyr)
 library(Boruta)
 library(DMwR)
