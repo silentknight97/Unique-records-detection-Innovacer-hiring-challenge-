@@ -213,7 +213,6 @@ for(i in 1:23){
    { 
      if(h[b]>0.87)
        {c[i]=1
-       print("ghus gya")
       break
      }
      b=b+1
